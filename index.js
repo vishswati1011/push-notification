@@ -19,8 +19,8 @@ app.use(express.static(path.join(__dirname, "client")));
 app.use(bodyParser.json())
 
 //storing the keys in variables
-const publicVapidKey = 'BJKdJ6-dLREbG4WJ1vsM5E0wNQZN_Jfs1DeHzBExgYab7UcBtewarU1zUudlLQvzr2gLKZ6aNo9M_t3dqQZOMtc';
-const privateVapidKey = 'DYwJpPsAnWoeid4dLfzwWa9wn4YJOr3PuNq8wbGsA1Q';
+const publicVapidKey = '..............';
+const privateVapidKey = '..........................';
 
 //setting vapid keys details
 webpush.setVapidDetails('mailto:mercymeave@section.com', publicVapidKey,privateVapidKey);
